@@ -19,6 +19,7 @@ agent any
     stage("Execuation of the script"){
     steps{
       script{
+       sh 'chmod 777 script.sh' 
        sh './script.sh'
        }
      }
