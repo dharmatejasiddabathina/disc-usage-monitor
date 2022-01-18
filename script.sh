@@ -8,6 +8,8 @@ echo "end of disc script execuation"
 
 echo "check the free space in the machine"
 
+echo "=============================================================="
 free -m 
 
+echo "=============================================================="
 echo "end of free script execuation"
