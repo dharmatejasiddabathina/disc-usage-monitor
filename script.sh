@@ -10,4 +10,4 @@ echo "check the free space in the machine"
 
 free -m 
 
-ech "end of free script execuation"
+echo "end of free script execuation"
