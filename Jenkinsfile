@@ -15,5 +15,13 @@ agent any
        }
      }
     }
+    
+    stage("Execuation of the script"){
+    steps{
+      script{
+       sh './script.sh'
+       }
+     }
+    }
   } 
 }
